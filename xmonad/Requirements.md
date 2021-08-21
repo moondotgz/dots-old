@@ -7,3 +7,4 @@ xmobar (make sure my xmobar config from this repo (unless you want to use your o
 /home/yourusername/.config/xmobar/)
 nitrogen
 compton
+dmenu
