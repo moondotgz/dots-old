@@ -16,11 +16,13 @@ import qualified Data.Map        as M
 -- The preferred terminal program, which is used in a binding below and by
 -- certain contrib modules.
 --
-myTerminal      = "gnome-terminal"
+myTerminal      = "alacritty"
+-- Preferred browser for mod+shift+f
+myBrowser       = "qutebrowser"
 
 -- Whether focus follows the mouse pointer.
 myFocusFollowsMouse :: Bool
-myFocusFollowsMouse = True
+myFocusFollowsMouse = False
 
 -- Whether clicking on a window to focus also passes the click to the window
 myClickJustFocuses :: Bool
@@ -67,11 +69,11 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- launch gmrun
     , ((modm .|. shiftMask, xK_p     ), spawn "gmrun")
 
-    -- firefox
-    , ((modm .|. shiftMask, xK_f     ), spawn "firefox")
+    -- Browser to use (Defined in myBrowser)
+    , ((modm .|. shiftMask, xK_f     ), spawn $ XMonad.Browser conf)
 
     -- config in gedit
-    , ((modm .|. shiftMask, xK_z     ), spawn "gedit /home/zowws/.xmonad/xmonad.hs")
+    , ((modm .|. shiftMask, xK_z     ), spawn "gedit ~/.xmonad/xmonad.hs")
 
     -- close focused window
     , ((modm .|. shiftMask, xK_c     ), kill)
@@ -258,7 +260,7 @@ myStartupHook = do
 -- Run xmonad with the settings you specify. No need to modify this.
 --
 main = do
-     xmproc <- spawnPipe "xmobar /home/zowws/.config/xmobar/xmobar.config"
+     xmproc <- spawnPipe "xmobar ~/.config/xmobar/xmobar.config"
      xmonad $ docks defaults
 
 -- A structure containing your configuration settings, overriding
@@ -277,6 +279,7 @@ defaults = def {
         workspaces         = myWorkspaces,
         normalBorderColor  = myNormalBorderColor,
         focusedBorderColor = myFocusedBorderColor,
+	Browser            = myBrowser
 
       -- key bindings
         keys               = myKeys,
