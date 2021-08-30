@@ -2,7 +2,8 @@
 * xmonad (duh)
 * xmonad-contrib
  * (if you are on ubuntu you want libghc-xmonad-contrib-dev)
-* opera
+* qutebrowser
+ * (you can change this in the myBrowser variable)
 * alacritty
  * (you can change this in the myTerminal variable in the config)
 * xmobar
