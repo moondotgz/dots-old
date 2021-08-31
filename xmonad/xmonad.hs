@@ -12,13 +12,10 @@ import XMonad.Util.Run
 import XMonad.Hooks.ManageDocks
 import qualified XMonad.StackSet as W
 import qualified Data.Map        as M
-
 -- The preferred terminal program, which is used in a binding below and by
 -- certain contrib modules.
 --
 myTerminal      = "alacritty"
--- Preferred browser for mod+shift+f
-myBrowser       = "qutebrowser"
 
 -- Whether focus follows the mouse pointer.
 myFocusFollowsMouse :: Bool
@@ -55,25 +52,31 @@ myWorkspaces    = ["1","2","3","4","5","6","7","8","9"]
 myNormalBorderColor  = "#ADD8E6"
 myFocusedBorderColor = "#00008B"
 
+
+
+
 ------------------------------------------------------------------------
 -- Key bindings. Add, modify or remove key bindings here.
 --
 myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
 
     -- launch a terminal
-    [ ((modm .|. shiftMask, xK_Return), spawn $ XMonad.terminal conf)
+    [ ((modm,               xK_Return), spawn $ XMonad.terminal conf)
 
     -- launch dmenu
     , ((modm,               xK_p     ), spawn "dmenu_run")
 
     -- launch gmrun
     , ((modm .|. shiftMask, xK_p     ), spawn "gmrun")
+    
+    -- browser
+    , ((modm .|. shiftMask, xK_b     ), spawn "min")
+    
+    -- youtube in surf
+    , ((modm .|. shiftMask, xK_y     ), spawn "surf https://www.youtube.com")
 
-    -- Browser to use (Defined in myBrowser)
-    , ((modm .|. shiftMask, xK_f     ), spawn $ XMonad.Browser conf)
-
-    -- config in gedit
-    , ((modm .|. shiftMask, xK_z     ), spawn "gedit ~/.xmonad/xmonad.hs")
+    -- config in code
+    , ((modm .|. shiftMask, xK_z     ), spawn "code ~/.xmonad/xmonad.hs")
 
     -- close focused window
     , ((modm .|. shiftMask, xK_c     ), kill)
@@ -279,7 +282,6 @@ defaults = def {
         workspaces         = myWorkspaces,
         normalBorderColor  = myNormalBorderColor,
         focusedBorderColor = myFocusedBorderColor,
-	Browser            = myBrowser
 
       -- key bindings
         keys               = myKeys,
