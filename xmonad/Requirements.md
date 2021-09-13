@@ -2,9 +2,11 @@
 * xmonad (duh)
 * xmonad-contrib
  * (if you are on ubuntu you want libghc-xmonad-contrib-dev)
-* min
+* firefox
 * surf
-* code (aka vs code)
+* VSCodium
+ * (https://snapcraft.io/install/codium/ubuntu for ubuntu)
+* lutris
 * alacritty
  * (you can change this in the myTerminal variable in the config)
 * xmobar

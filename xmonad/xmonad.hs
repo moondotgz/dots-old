@@ -1,4 +1,4 @@
--- Zowws's xmonad config 2021-08-17
+-- Zowws's xmonad config 2021-09-13
 -- Built from the xmonad example config
 -- Left most of the comments in here just for me (and you!) to have an understanding of what you 
 -- are doing
@@ -68,15 +68,18 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
 
     -- launch gmrun
     , ((modm .|. shiftMask, xK_p     ), spawn "gmrun")
+
+    -- lutris
+    , ((modm .|. shiftMask, xK_o     ), spawn "lutris")
     
     -- browser
-    , ((modm .|. shiftMask, xK_b     ), spawn "min")
+    , ((modm .|. shiftMask, xK_b     ), spawn "firefox")
     
     -- youtube in surf
     , ((modm .|. shiftMask, xK_y     ), spawn "surf https://www.youtube.com")
 
     -- config in code
-    , ((modm .|. shiftMask, xK_z     ), spawn "code ~/.xmonad/xmonad.hs")
+    , ((modm .|. shiftMask, xK_z     ), spawn "codium ~/.xmonad/xmonad.hs")
 
     -- close focused window
     , ((modm .|. shiftMask, xK_c     ), kill)
