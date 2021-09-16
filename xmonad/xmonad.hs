@@ -1,4 +1,4 @@
--- Zowws's xmonad config 2021-09-13
+-- Zowws's xmonad config 2021-09-16
 -- Built from the xmonad example config
 -- Left most of the comments in here just for me (and you!) to have an understanding of what you 
 -- are doing
@@ -258,7 +258,8 @@ myLogHook = return ()
 -- By default, do nothing.
 myStartupHook = do
            spawnOnce "nitrogen --restore &"
-	   spawnOnce "compton &"
+	   spawnOnce "picom &"
+	   spawnOnce "nm-applet"
 
 ------------------------------------------------------------------------
 -- Now run xmonad with all the defaults we set up.
