@@ -1,4 +1,4 @@
--- Zowws's xmonad config 2021-09-16
+-- Zowws's xmonad config 2021-09-22
 -- Built from the xmonad example config
 -- Left most of the comments in here just for me (and you!) to have an understanding of what you 
 -- are doing
@@ -15,7 +15,7 @@ import qualified Data.Map        as M
 -- The preferred terminal program, which is used in a binding below and by
 -- certain contrib modules.
 --
-myTerminal      = "alacritty"
+myTerminal      = "st"
 
 -- Whether focus follows the mouse pointer.
 myFocusFollowsMouse :: Bool
