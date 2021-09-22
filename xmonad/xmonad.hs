@@ -73,7 +73,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm .|. shiftMask, xK_o     ), spawn "lutris")
     
     -- browser
-    , ((modm .|. shiftMask, xK_b     ), spawn "epiphany")
+    , ((modm .|. shiftMask, xK_b     ), spawn "brave")
     
     -- youtube in surf
     , ((modm .|. shiftMask, xK_y     ), spawn "surf https://www.youtube.com")
