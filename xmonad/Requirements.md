@@ -2,7 +2,7 @@
 * xmonad (duh)
 * xmonad-contrib
  * (if you are on ubuntu you want libghc-xmonad-contrib-dev)
-* epiphany (GNOME Web)
+* brave
 * surf
 * VSCodium
  * (https://snapcraft.io/install/codium/ubuntu for ubuntu)
