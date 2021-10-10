@@ -1,4 +1,4 @@
--- Zowws's xmonad config 2021-09-22
+-- Zowws's xmonad config 2021-10-10
 -- Built from the xmonad example config
 -- Left most of the comments in here just for me (and you!) to have an understanding of what you 
 -- are doing
@@ -267,7 +267,7 @@ myStartupHook = do
 -- Run xmonad with the settings you specify. No need to modify this.
 --
 main = do
-     xmproc <- spawnPipe "xmobar ~/.config/xmobar/xmobar.config"
+     xmproc <- spawnPipe "xmobar ~/.config/xmobar/xmobarrc"
      xmonad $ docks defaults
 
 -- A structure containing your configuration settings, overriding
