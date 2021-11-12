@@ -8,8 +8,8 @@ My Linux dotfiles
 # My bar configs
 * [xmobar](https://github.com/zowws/Dotfiles/tree/main/xmobar/)
 # My shell configs
-* [zshrc](https://github.com/zowws/Dotfiles/tree/main/zshrc)
+* [zshrc](https://github.com/zowws/Dotfiles/tree/blob/zshrc)
 # My personal aliases
-* [zshrc-personal](https://github.com/zowws/Dotfiles/tree/main/zshrc-personal)
+* [zshrc-personal](https://github.com/zowws/Dotfiles/blob/main/zshrc-personal)
 # My zsh themes
-* [powerlevel10k config](https://github.com/zowws/Dotfiles/tree/main/p10k.zsh)
+* [powerlevel10k config](https://github.com/zowws/Dotfiles/blob/main/p10k.zsh)
