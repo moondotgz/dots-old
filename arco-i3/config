@@ -464,7 +464,8 @@ bindsym --release $mod+Escape exec xkill
 
 # Function Keybinds
 # Browser
-bindsym $mod+F1 exec --no-startup-id exo-open --launch webbrowser;focus
+# bindsym $mod+F1 exec --no-startup-id exo-open --launch webbrowser;focus
+bindsym $mod+F1 exec --no-startup-id netbox-browser-stable
 # qwerty/azerty conflict with w
 bindsym $mod+w exec --no-startup-id exo-open --launch webbrowser;focus
 bindsym control+mod1+f exec --no-startup-id firefox;focus
