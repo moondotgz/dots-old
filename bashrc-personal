@@ -1,0 +1,23 @@
+# Youtube-DL
+alias yta-aac="youtube-dl --extract-audio --audio-format aac "
+alias yta-best="youtube-dl --extract-audio --audio-format best "
+alias yta-flac="youtube-dl --extract-audio --audio-format flac "
+alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
+alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
+alias yta-opus="youtube-dl --extract-audio --audio-format opus "
+alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
+alias yta-wav="youtube-dl --extract-audio --audio-format wav "
+alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+
+# Update grub
+alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
+# Emacs
+alias em="emacsclient -c -a 'emacs'"
+
+# Config files in Emacs
+alias dwmconf="$EDITOR ~/suckless_programs/custom_configs/zowws-dwm/dwm/config.def.h"
+alias i3conf="$EDITOR ~/.config/i3/config"
+alias qtileconf="$EDITOR ~/.config/qtile/config.py"
+alias ez="$EDITOR ~/.zshrc"
+alias ezp="$EDITOR ~/.zshrc-personal"
