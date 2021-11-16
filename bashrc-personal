@@ -15,6 +15,9 @@ alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 # Emacs
 alias em="emacsclient -c -a 'emacs'"
 
+# Use neovim instead of vim
+alias vim="nvim"
+
 # Config files in Emacs
 alias dwmconf="$EDITOR ~/suckless_programs/custom_configs/zowws-dwm/dwm/config.def.h"
 alias i3conf="$EDITOR ~/.config/i3/config"
