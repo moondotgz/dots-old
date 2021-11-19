@@ -68,3 +68,4 @@
 (package! poly-markdown)
 (package! poly-org)
 (package! polymode)
+(package! pacmacs)
