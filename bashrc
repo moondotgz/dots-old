@@ -323,4 +323,4 @@ neofetch
 eval "$(starship init bash)"
 
 # Set theme because .Xresources doesn't work
-wal -q --theme gruvbox
+wal -q --theme base16-spacemacs
