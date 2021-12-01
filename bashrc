@@ -10,7 +10,7 @@
 #export QT_IM_MODULE=ibus
 
 # Path
-export PATH=$HOME/.emacs.d/bin:$PATH
+export PATH=$HOME/.emacs.d/bin:$HOME/.binaries:$PATH
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -303,6 +303,9 @@ alias personal='cp -Rf /personal/* ~'
 
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
+# oh-my-posh
+eval "$(oh-my-posh --init --shell bash --config ~/.poshthemes/amro.omp.json)"
+
 # reporting tools - install when not installed
 neofetch
 #screenfetch
@@ -319,8 +322,3 @@ neofetch
 #cpufetch
 #colorscript random
 
-# Starship prompt
-eval "$(starship init bash)"
-
-# Set theme because .Xresources doesn't work
-wal -q --theme base16-spacemacs

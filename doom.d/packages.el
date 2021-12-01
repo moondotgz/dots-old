@@ -69,3 +69,5 @@
 (package! poly-org)
 (package! polymode)
 (package! pacmacs)
+(package! haskell-emacs)
+(package! haskell-mode)
