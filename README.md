@@ -13,3 +13,6 @@ My Linux dotfiles
 * [zshrc-personal](https://github.com/zowws/Dotfiles/blob/main/zshrc-personal)
 # My zsh themes
 * [powerlevel10k config](https://github.com/zowws/Dotfiles/blob/main/p10k.zsh)
+# Browser
+* [Extensions list](https://github.com/zowws/Dotfiles/blob/main/Screenshot%20from%202021-12-15%2023-00-12.png)
+* [Bookmarks](https://github.com/zowws/Dotfiles/blob/main/bookmarks_12_15_21.html)
