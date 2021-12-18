@@ -8,7 +8,7 @@ My Linux dotfiles
 # My bar configs
 * [xmobar](https://github.com/zowws/Dotfiles/tree/main/xmobar/)
 # My shell configs
-* [zshrc](https://github.com/zowws/Dotfiles/tree/blob/zshrc)
+* [zshrc](https://github.com/zowws/Dotfiles/blob/main/zshrc)
 # My personal aliases
 * [zshrc-personal](https://github.com/zowws/Dotfiles/blob/main/zshrc-personal)
 # My zsh themes
@@ -16,3 +16,7 @@ My Linux dotfiles
 # Browser
 * [Extensions list](https://github.com/zowws/Dotfiles/blob/main/Screenshot%20from%202021-12-15%2023-00-12.png)
 * [Bookmarks](https://github.com/zowws/Dotfiles/blob/main/bookmarks_12_15_21.html)
+# Media players
+* [mpv](https://github.com/zowws/Dotfiles/tree/main/mpv/)
+# Terminals
+* [Alacritty](https://github.com/zowws/Dotfiles/tree/main/alacritty/)
