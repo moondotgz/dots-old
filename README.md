@@ -14,11 +14,13 @@ My Linux dotfiles
 * [bashrc-personal](https://github.com/zowws/dots/blob/main/bashrc-personal)
 * [zshrc-personal](https://github.com/zowws/dots/blob/main/zshrc-personal)
 # My zsh themes
-* [powerlevel10k config](https://github.com/zowws/Dotfiles/blob/main/p10k.zsh)
+* [powerlevel10k config](https://github.com/dots/Dotfiles/blob/main/p10k.zsh)
 # Browser
-* [Extensions list](https://github.com/zowws/Dotfiles/blob/main/Screenshot%20from%202021-12-15%2023-00-12.png)
-* [Bookmarks](https://github.com/zowws/Dotfiles/blob/main/bookmarks.html)
+* [Extensions list](https://github.com/zowws/dots/blob/main/Screenshot%20from%202021-12-15%2023-00-12.png)
+* [Bookmarks](https://github.com/zowws/dots/blob/main/bookmarks.html)
 # Media players
-* [mpv](https://github.com/zowws/Dotfiles/tree/main/mpv/)
+* [mpv](https://github.com/zowws/dots/tree/main/mpv/)
 # Terminals
-* [Alacritty](https://github.com/zowws/Dotfiles/tree/main/alacritty/)
+* [Alacritty](https://github.com/zowws/dots/tree/main/alacritty/)
+# Launcher configs
+* [dmenu command](https://github.com/zowws/dots/blob/main/dmenu)
