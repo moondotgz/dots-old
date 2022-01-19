@@ -16,8 +16,9 @@ My Linux dotfiles
 # My zsh themes
 * [powerlevel10k config](https://github.com/dots/Dotfiles/blob/main/p10k.zsh)
 # Browser
-* [Extensions list](https://github.com/zowws/dots/blob/main/Screenshot%20from%202021-12-15%2023-00-12.png)
-* [Bookmarks](https://github.com/zowws/dots/blob/main/bookmarks.html)
+Theme is Dark space
+* [Extensions list](https://github.com/zowws/dots/blob/main/2022-01-19_13-05.png)
+* [Bookmarks](https://github.com/zowws/dots/blob/main/books.html)
 # Media players
 * [mpv](https://github.com/zowws/dots/tree/main/mpv/)
 # Terminals
